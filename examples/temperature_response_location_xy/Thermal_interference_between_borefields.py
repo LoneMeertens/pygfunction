@@ -96,6 +96,7 @@ def main():
     ax.plot(lntts, g_AA + g_AB, 'ks')
     ax.legend(['C->C (Ref.)', 'A->A', 'B->A', 'A->A + B->A'])
     plt.tight_layout()
+    plt.show
 
 if __name__ == '__main__':
     main()
